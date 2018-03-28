@@ -1,0 +1,36 @@
+*,
+*:before,
+*:after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+
+  background: #CFC8DA;
+  color: #073a3a;
+
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+    padding: 1rem;
+}
+
+.center-text {
+    text-align: center;
+}
